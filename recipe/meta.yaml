@@ -44,12 +44,12 @@ test:
 
 about:
   home: https://github.com/diffpy/diffpy.fourigui/
-  summary: A Pyhton package for for visualizing 3D diffraction and PDF Images.
+  summary: A Python package for for visualizing 3D diffraction and PDF Images.
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
   description: |
-    A Pyhton package for for visualizing 3D diffraction and PDF Images.
+    A Python package for for visualizing 3D diffraction and PDF Images.
   doc_url: https://diffpy.github.io/diffpy.fourigui/
   dev_url: https://github.com/diffpy/diffpy.fourigui/
 
