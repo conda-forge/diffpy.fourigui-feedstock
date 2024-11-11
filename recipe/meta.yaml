@@ -1,5 +1,6 @@
 {% set name = "diffpy.fourigui" %}
 {% set version = "0.2.0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -15,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.11,<3.14
+    - python {{ python_min }}
     - setuptools
     - setuptools-git-versioning >=2.0
     - pip
 
   run:
-    - python >=3.11,<3.14
+    - python >={{ python_min }}
     - h5py
     - tk
     - matplotlib-base
@@ -29,6 +30,7 @@ requirements:
 
 test: 
   requires:
+    - python {{ python_min }}
     - pip
     - pytest
     - flake8
