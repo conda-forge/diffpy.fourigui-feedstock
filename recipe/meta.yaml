@@ -33,12 +33,6 @@ test:
     - python {{ python_min }}
     - pip
     - pytest
-    - flake8
-    - pytest
-    - codecov
-    - coverage
-    - pytest-cov
-    - pytest-env
     - pytest-mock
 
   source_files:
