@@ -35,13 +35,13 @@ test:
   requires:
     - python {{ python_min }}
     - pytest-mock
+    - pytest
 
   source_files:
     - tests
 
   commands:
     - pip check
-    - pytest
 
 about:
   home: https://github.com/diffpy/diffpy.fourigui/
