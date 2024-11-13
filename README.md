@@ -7,13 +7,13 @@ Home: https://github.com/diffpy/diffpy.fourigui/
 
 Package license: BSD-3-Clause
 
-Summary: A Pyhton package for for visualizing 3D diffraction and PDF Images.
+Summary: A Python package for for visualizing 3D diffraction and PDF Images.
 
 Development: https://github.com/diffpy/diffpy.fourigui/
 
 Documentation: https://diffpy.github.io/diffpy.fourigui/
 
-A Pyhton package for for visualizing 3D diffraction and PDF Images.
+Diffpy.fourigui is a tool to visualize and process 3D data sets written with the Python programming language. Diffpy.fourigui always displays one slice perpendicular to one axis and allows scrolling through the 3D data set along the given axis with a slider. It shows feedback values such as global and local maxima, minima or NAN ratios. The matplotlib panel e.g. for zooming and saving figures is featured. Diffpy.fourigui is designed for the processing of 3D atomic pair distribution functions (PDFs). One can load a 3D reciprocal space scattering volume which can be Fourier transformed to the 3D PDF. Thereby, one can apply cut off frequencies beyond and below given Q values, compare the results and switch between the scattering volume in reciprocal space and 3D PDF in real space.
 
 
 Current build status
