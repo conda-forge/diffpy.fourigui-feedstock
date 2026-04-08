@@ -1,6 +1,6 @@
 {% set name = "diffpy.fourigui" %}
-{% set version = "0.2.0" %}
-{% set python_min = "3.11" %}
+{% set version = "0.3.0" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/diffpy_fourigui/diffpy_fourigui-{{ version }}.tar.gz
-  sha256: 20e2d7965f5ba6c6ce8f367c54ab396cf8e2732a5ecde56afc33add9af3cad8e
+  sha256: 8376b00f7b7b1dad7e86e10102c2bc1487dec9ccdcde36fd032eab9d68330e79
 build:
   number: 0
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
@@ -34,6 +34,11 @@ test:
     - pip
     - pytest
     - pytest-mock
+    - flake8
+    - codecov
+    - coverage
+    - pytest-cov
+    - pytest-env
 
   source_files:
     - tests
